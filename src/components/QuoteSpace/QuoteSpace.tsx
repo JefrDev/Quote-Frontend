@@ -1,11 +1,11 @@
-import Quote from "./Quote";
+import Quote from "../Quote/Quote";
 
 function QuoteSpace() {
     let QuoteExamples = ['leven is geen 1v1', 'sjors is een teringlijer!']
 
 
     return <>
-    {QuoteExamples.map(item => <Quote quote={item}></Quote>)}
+    {QuoteExamples.map(perQuote => <Quote quote={perQuote}></Quote>)}
     </>;
 }
 

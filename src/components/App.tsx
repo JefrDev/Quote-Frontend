@@ -1,4 +1,4 @@
-import QuoteSpace from "./QuoteSpace";
+import QuoteSpace from "./QuoteSpace/QuoteSpace";
 
 
 function App() {
